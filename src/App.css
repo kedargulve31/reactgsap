@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  height: 70px;
+  width: 100%;
+  background: darkorchid;
+  color: white;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+form{
+  height: 500px;
+  width: 350px;
+  background: lightgrey;
+  border: 2px solid black;
+  box-shadow: 1px 1px 3px black;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  border-radius: 4px;
+}
+
+form h4{
+  height: 30px;
+  width: 100%;
+  background: darkgoldenrod;
   color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+form .input-filed input
+{
+  
+  width: 100%;
+  padding: 10px 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form button{
+  margin-top: 14px;
+  background: #22bb33;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 80%;
+position: absolute;
+left: 10%;
+color: white;
+padding: 8px 20px;
+}
+
+
+body{
+  overflow-x: hidden;
+}
+form p{
+  padding: 1px 3px ;
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+
+}
+
+.page1{
+  height: 500px;
+  width: 100%;
+  background: lightcoral;
+}
+.page2{
+  height: 700px;
+  width: 100%;
+  background: lightblue;
+  
+}
+
+.page2 h2{
+  font-size: 320px;
+  color: red;
+ 
+}
+.page3{
+  height: 800px;
+  width: 100%;
+  background: navy;
 }
